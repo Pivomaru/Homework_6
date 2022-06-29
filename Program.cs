@@ -2,16 +2,21 @@
 Посчитайте, сколько чисел больше 0 ввёл пользователь.
 0, 7, 8, -2, -2 -> 2
 -1, -7, 567, 89, 223-> 3 */
-int M = 5;
+
+/* Console.WriteLine("Введите числа через пробел:");
+string s = Console.ReadLine();
+string[] nums = s.Split(" ");
 int count = 0;
-while (  == )
+
+for (int i = 0; i < nums.Length; i++)
 {
-    Console.WriteLine("Введите число");
-    int f = int.Parse(Console.ReadLine());
-    count++;
-    
+    int num = int.Parse(nums[i]);
+    if ( num > 0 )
+        count++;
 }
- Console.WriteLine(count); */
+Console.WriteLine(count); */
+
+
 ///////////////////////////////////////////////
 
 /* Задача 43. Напишите программу, которая найдёт точку
